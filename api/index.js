@@ -20,7 +20,7 @@ app.use(cors({
     origin : process.env.FRONTEND_URL,
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization', 'x-csrf-token', 'Access-Control-Allow-Headers', 'Access-Control-Allow-Methods'],
-    methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS']
+    methods: ['GET', 'POST','PUT', 'PATCH', 'DELETE', 'OPTIONS']
 }))
 
 
