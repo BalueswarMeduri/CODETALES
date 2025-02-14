@@ -18,7 +18,7 @@ import {
   RouteSignUp,
   RouteUser,
 } from "./helpers/RouteName";
-import Index from "./pages";
+import Index from "./pages/Index";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import Profile from "./pages/Profile";
